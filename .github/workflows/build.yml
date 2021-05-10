@@ -1,10 +1,10 @@
-name: Build latest template
+name: Build
 
 on:
   push:
     branches: [master]
   schedule:
-    - cron:  '0 3 * * *'
+    - cron: '0 3 * * *'
 
 jobs:
   build:
