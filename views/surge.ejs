@@ -2,8 +2,8 @@
 #!desc=将 iOS 系统原生 天气 App 的空气质量标准改为 AQI-US
 
 [Script]
-AQI-US-v1 = type=http-response, pattern=https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path=<%= baseUrl %>/script.js?vresion=v1&token=<%= aqicnToken %>
-AQI-US-v2 = type=http-response, pattern=https://weather-data.apple.com/v2/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path=<%= baseUrl %>/script.js?vresion=v2&token=<%= aqicnToken %>
+AQI-US-v1 = type=http-response, pattern=https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path=<%= baseUrl %>/script.js?version=v1&token=<%= aqicnToken %>
+AQI-US-v2 = type=http-response, pattern=https://weather-data.apple.com/v2/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path=<%= baseUrl %>/script.js?version=v2&token=<%= aqicnToken %>
 
 [MITM]
 hostname = %INSERT% weather-data.apple.com

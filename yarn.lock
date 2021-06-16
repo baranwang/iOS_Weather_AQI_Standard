@@ -19,29 +19,29 @@
   resolved "https://registry.nlark.com/@types/node/download/@types/node-15.12.2.tgz#1f2b42c4be7156ff4a6f914b2fb03d05fa84e38d"
   integrity sha1-HytCxL5xVv9Kb5FLL7A9BfqE440=
 
-"@vercel/build-utils@2.11.0":
-  version "2.11.0"
-  resolved "https://registry.nlark.com/@vercel/build-utils/download/@vercel/build-utils-2.11.0.tgz#bedd4dd248a1536e2e803a0a68315a576a0bb539"
-  integrity sha1-vt1N0kihU24ugDoKaDFaV2oLtTk=
+"@vercel/build-utils@2.11.1":
+  version "2.11.1"
+  resolved "https://registry.nlark.com/@vercel/build-utils/download/@vercel/build-utils-2.11.1.tgz#9aae42a598b4b22cc8544bc2d4284d23447016dd"
+  integrity sha1-mq5CpZi0sizIVEvC1ChNI0RwFt0=
 
 "@vercel/go@1.2.2":
   version "1.2.2"
   resolved "https://registry.npm.taobao.org/@vercel/go/download/@vercel/go-1.2.2.tgz#47686fc8f381767428d855bdd846b66efe2f742f"
   integrity sha1-R2hvyPOBdnQo2FW92Ea2bv4vdC8=
 
-"@vercel/node@1.11.0":
-  version "1.11.0"
-  resolved "https://registry.nlark.com/@vercel/node/download/@vercel/node-1.11.0.tgz#2c34e4cab9dfaf8a796a0b590b20d2f6cf222749"
-  integrity sha1-LDTkyrnfr4p5agtZCyDS9s8iJ0k=
+"@vercel/node@1.11.1":
+  version "1.11.1"
+  resolved "https://registry.nlark.com/@vercel/node/download/@vercel/node-1.11.1.tgz#3500dff4ebb4fa93e7451ffa16dcade8be2bb305"
+  integrity sha1-NQDf9Ou0+pPnRR/6Ftyt6L4rswU=
   dependencies:
     "@types/node" "*"
     ts-node "8.9.1"
     typescript "3.9.3"
 
-"@vercel/python@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.nlark.com/@vercel/python/download/@vercel/python-2.0.3.tgz#388a42766c75401a15828a05fc66165c0ffb270e"
-  integrity sha1-OIpCdmx1QBoVgooF/GYWXA/7Jw4=
+"@vercel/python@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.nlark.com/@vercel/python/download/@vercel/python-2.0.4.tgz#dfa54a5507a7a3587fd253647ee0daeb661689f5"
+  integrity sha1-36VKVQeno1h/0lNkfuDa62YWifU=
 
 "@vercel/ruby@1.2.6":
   version "1.2.6"
@@ -1102,15 +1102,15 @@ vary@~1.1.2:
   resolved "https://registry.nlark.com/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vercel@^23.0.0:
-  version "23.0.0"
-  resolved "https://registry.nlark.com/vercel/download/vercel-23.0.0.tgz#6542fa4b26e0f57246911bda33b94cee8242a2f8"
-  integrity sha1-ZUL6Sybg9XJGkRvaM7lM7oJCovg=
+vercel@^23.0.1:
+  version "23.0.1"
+  resolved "https://registry.nlark.com/vercel/download/vercel-23.0.1.tgz#71e73007675e5f0d8cd2f88cb8b40762e3d33fc8"
+  integrity sha1-cecwB2deXw2M0viMuLQHYuPTP8g=
   dependencies:
-    "@vercel/build-utils" "2.11.0"
+    "@vercel/build-utils" "2.11.1"
     "@vercel/go" "1.2.2"
-    "@vercel/node" "1.11.0"
-    "@vercel/python" "2.0.3"
+    "@vercel/node" "1.11.1"
+    "@vercel/python" "2.0.4"
     "@vercel/ruby" "1.2.6"
     update-notifier "4.1.0"
 
