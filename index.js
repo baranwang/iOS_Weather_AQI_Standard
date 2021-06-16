@@ -6,9 +6,10 @@ const port = process.env.PORT || 1993;
 app.set('view engine', 'ejs');
 
 app.get('/script.js', (req, res) => {
-  res.type('text/javascript');
+  const version = req.query.version ?? 'v1'
 
-  res.render('temp.ejs', {
+  res.type('text/javascript');
+  res.render(`temp.${version}.ejs`, {
     aqicnToken: req.query.token,
   });
 })
