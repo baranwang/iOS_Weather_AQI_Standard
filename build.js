@@ -11,7 +11,7 @@ const path = require('path');
     if (Object.hasOwnProperty.call(tempURL, key)) {
       const url = tempURL[key];
       const { data } = await axios.get(url)
-      const temp = data.replace(new RegExp(`(.*)const(\\s)?aqicnToken(\\s)?=(\\s)''`), `const aqicnToken = '<%= aqicnToken %>'`)
+      const temp = data.replace(new RegExp(`(.*)const(\\s)?aqicnToken(\\s)?=(.*)''`), `const aqicnToken = '<%= aqicnToken %>'`)
       fs.writeFileSync(path.resolve('./views', `temp.${key}.ejs`), temp)
     }
   }
